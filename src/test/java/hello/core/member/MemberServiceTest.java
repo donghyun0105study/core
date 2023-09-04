@@ -8,11 +8,11 @@ public class MemberServiceTest {
 
     MemberService memberService;
 
-    @BeforeEach
-    public void beforeEach() {
-        AppConfig appConfig = new AppConfig();
-        memberService = appConfig.memberService();
-    }
+//    @BeforeEach
+//    public void beforeEach() {
+//        AppConfig appConfig = new AppConfig();
+//        memberService = appConfig.memberService();
+//    }
 
     @Test
     void join() {
